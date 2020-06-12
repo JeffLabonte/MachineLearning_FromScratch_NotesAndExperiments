@@ -8,7 +8,9 @@ Vector = List[float]
 
 def add (v: Vector, w: Vector) -> Vector:
 	"""
-	Add two vector two vector together
+	Make the sum of each value from both Vector.
+
+	The Vectors must be of the same length
 
 	:raises: RuntimeError
 	"""
